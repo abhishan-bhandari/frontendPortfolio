@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #121212;
+}
+
+h1, h2, h3 {
+    font-weight: 700; 
+}
+
+p {
+    font-weight: 400; 
+    line-height: 1.6;
+}
+
+.highlight {
+    color: #FFC107; 
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: .2s linear;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    
+}
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+.main-container{
+    background-color:#030617 ;
+    
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 2rem 7%;
+    align-items: center;
+}
+.header h2{
+    font-weight: normal;
+}
+.header .navbar a{
+    font-size: 2rem;
+    font-weight: normal;
+    margin-left: 2rem;
+    color: rgb(233, 226, 226);
+   
+    text-decoration: none;
+}
+.header .navbar a:hover{
+    color: #ffc61a;
+    
+}
+.main-container h2{
+    color: white;
+    font-size: 35px;
+
+}
+.main-container h2 span{
+    color: #ffc61a;
+    font-weight: normal;
+}
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #030617;
+    color: #fff;
+}
+
+.portfolio-container {
+    text-align: center;
+    padding: 50px;
+}
+
+.portfolio-container h1 {
+    font-size: 4rem;
+    color: #ffcc00;
+}
+
+.portfolio-container h1 span {
+    color: #fff;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.description {
+    margin: 20px 0;
+    font-size: 2rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #ccc;
+}
+
+.photo{
+    display: flex;
+    flex-direction: row;
+    padding: 10%;
+    position: absolute;
+    top: 40%;
+    gap: 3%;
+}
+.photobox{
+    display: flex;
+    flex-direction: column;
+    gap: 3%;
+}
+.box1{
+    display: flex;
+    flex-direction: row;
+    gap: 7%;
+}
+.box2{
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+}
+.photo1 img,.box1 img,.box2 img{
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+.photo1 img{
+    position: relative;
+    width: 500px;
+    height: 500px;
+}
+.box1 img,.box2 img{
+    position: relative;
+    height: 245px;
+}
+
+
+
+@media screen and (max-width: 768px) {
+  
+    .header {
+      flex-direction: column;
+      align-items: start;
+    }
+    .header .navbar {
+      margin-left: 0;
+      display: flex;
+      gap: 1rem;
+    }
+  
+    .header .navbar a {
+      font-size: 1.5rem;
+      margin-left: 0;
+    }
+
+  }

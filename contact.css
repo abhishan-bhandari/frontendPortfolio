@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #121212; /* Assuming the background is dark based on the image */
+  color: #ffffff; /* White or light text color */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700; /* Bold for headings */
+}
+
+p {
+  font-weight: 400; /* Regular weight for paragraphs */
+  line-height: 1.6;
+}
+
+.highlight {
+  color: #ffc107; /* Assuming the highlighted "Me" text uses a yellow shade */
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: 0.2s linear;
+  text-transform: capitalize;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+.main-container {
+  background-color: #030617;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 2rem 7%;
+  align-items: center;
+}
+.header h2 {
+  font-weight: normal;
+}
+.header .navbar a {
+  font-size: 2rem;
+  font-weight: normal;
+  margin-left: 2rem;
+  color: rgb(233, 226, 226);
+
+  text-decoration: none;
+}
+.header .navbar a:hover {
+  color: #ffc61a;
+}
+.main-container h2 {
+  color: white;
+  font-size: 35px;
+}
+.main-container h2 span {
+  color: #ffc61a;
+  font-weight: normal;
+}
+body {
+  margin: 0;
+  background-color: #030617;
+  color: #fff;
+}
+
+/* .contact-container {
+  font-size: 20px;
+  text-align: center;
+  padding: 50px;
+} */
+.contact-container h1 {
+  margin: 0;
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+  padding: 0px;
+}
+.about-container {
+  font-size: 10px;
+  text-align: center;
+  padding: 50px;
+}
+
+h1,
+h2 {
+  color: #ffcc00;
+  margin-bottom: 20px;
+  font-weight: normal;
+  font-size: 3rem;
+}
+
+h1 span,
+h2 span {
+  color: #fff;
+}
+
+.description {
+  margin: 18px;
+  font-size: 15px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #6b7280;
+}
+.info {
+  display: flex;
+  flex-direction: row;
+  padding-right: 20%;
+}
+
+.contact-info {
+  text-align: left;
+  max-width: 310px;
+  margin: 30px auto;
+  font-size: 1rem;
+
+  line-height: 1.8em;
+}
+
+.contact-info strong {
+  color: #ffcc00;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+.contact-info p {
+  font-weight: normal;
+  gap: 50%;
+  font-size: 1.5rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #1f2937;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.contact-form button {
+  padding: 10px 20px;
+  background-color: #ffcc00;
+  border: none;
+  border-radius: 5px;
+  color: #111;
+  font-size: 1.5em;
+  cursor: pointer;
+  margin-right: 20%;
+}
+
+.about-container {
+  margin-top: 50px;
+  padding-bottom: 50px;
+}
+
+.social-links a {
+  color: #1f2937;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 0 10px;
+  display: inline-block;
+}
+
+.social-links img {
+  width: 24px;
+  height: 24px;
+}
+
+
+
+@media screen and (max-width: 768px) {
+  
+  .header {
+    flex-direction: column;
+    align-items: start;
+  }
+  .header .navbar {
+    margin-left: 0;
+    display: flex;
+    gap: 1rem;
+  }
+
+  .header .navbar a {
+    font-size: 1.5rem;
+    margin-left: 0;
+  }
+  
+}
